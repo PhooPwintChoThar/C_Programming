@@ -26,5 +26,9 @@ int main(){
     pthread_join(t2, NULL);
 
     pthread_mutex_destroy(&mlock);
+    printf("Bye Bye Guys!");
     return 0;
 }
+
+//comment out mutex lines to see the difference
+//comment out pthread_join() to see the difference
